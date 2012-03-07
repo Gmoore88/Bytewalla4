@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/bytewalla/!svn/ver/2099/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling
+END
+CustodyTimerSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/bytewalla/!svn/ver/2037/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/CustodyTimerSpec.java
+END
+BundlePayload.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundlePayload.java
+END
+DTNTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/DTNTime.java
+END
+ForwardingInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/ForwardingInfo.java
+END
+BundleStatusReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleStatusReport.java
+END
+ForwardingLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/ForwardingLog.java
+END
+BundleDaemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2099/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleDaemon.java
+END
+BlockProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BlockProcessor.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/1845/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/package.html
+END
+FragmentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/FragmentManager.java
+END
+BlockInfoVec.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/1839/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BlockInfoVec.java
+END
+SDNV.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/SDNV.java
+END
+ExpirationTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2037/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/ExpirationTimer.java
+END
+Dictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/Dictionary.java
+END
+PayloadBlockProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/PayloadBlockProcessor.java
+END
+BundleInfoCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/1841/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleInfoCache.java
+END
+UnknownBlockProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/UnknownBlockProcessor.java
+END
+LinkBlockSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/LinkBlockSet.java
+END
+GbofId.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/bytewalla/!svn/ver/1827/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/GbofId.java
+END
+PrimaryBlockProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/bytewalla/!svn/ver/2080/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/PrimaryBlockProcessor.java
+END
+Bundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/Bundle.java
+END
+FragmentState.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/FragmentState.java
+END
+BundleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleList.java
+END
+CustodyTimerVec.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/1836/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/CustodyTimerVec.java
+END
+BundleActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleActions.java
+END
+BlockInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BlockInfo.java
+END
+BundleProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2099/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleProtocol.java
+END
+CustodySignal.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/CustodySignal.java
+END
+TempBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/bytewalla/!svn/ver/1827/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/TempBundle.java
+END
+BlockingBundleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/bytewalla/!svn/ver/1832/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BlockingBundleList.java
+END
+CustodyTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/CustodyTimer.java
+END
+BundleTimestamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleTimestamp.java
+END
+BundleEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/bundling/BundleEventHandler.java
+END

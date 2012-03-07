@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/README.txt
+END
+NamingException.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/NamingException.class
+END
+SchemeTable.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/SchemeTable.class
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/package.html
+END
+InvalidURIException.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/InvalidURIException.class
+END
+EndpointID$singleton_info_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointID$singleton_info_t.class
+END
+EndpointIDPattern.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointIDPattern.class
+END
+EndpointID.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointID.class
+END
+EndpointIDVector.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointIDVector.class
+END
+DTNScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/DTNScheme.class
+END
+Scheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/Scheme.class
+END

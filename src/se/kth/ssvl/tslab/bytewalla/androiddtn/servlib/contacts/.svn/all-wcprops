@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/bytewalla/!svn/ver/2088/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts
+END
+ContactManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2088/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/ContactManager.java
+END
+AttributeNameVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/bytewalla/!svn/ver/1859/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/AttributeNameVector.java
+END
+LinkSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/1870/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/LinkSet.java
+END
+AlwaysOnLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/AlwaysOnLink.java
+END
+AttributeName.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/1858/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/AttributeName.java
+END
+ScheduledLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/ScheduledLink.java
+END
+LinkStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/bytewalla/!svn/ver/1871/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/LinkStats.java
+END
+OndemandLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/OndemandLink.java
+END
+OpportunisticLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/OpportunisticLink.java
+END
+NamedAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/NamedAttribute.java
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/Contact.java
+END
+AttributeVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/AttributeVector.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/Link.java
+END
+Interface.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/Interface.java
+END
+InterfaceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/InterfaceList.java
+END
+InterfaceTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/contacts/InterfaceTable.java
+END

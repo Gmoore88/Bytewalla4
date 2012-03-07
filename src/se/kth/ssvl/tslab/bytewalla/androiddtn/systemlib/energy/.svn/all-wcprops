@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/bytewalla/!svn/ver/2037/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/systemlib/energy
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/1808/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/systemlib/energy/package.html
+END
+BatteryObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/1806/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/systemlib/energy/BatteryObserver.java
+END
+BatteryStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/bytewalla/!svn/ver/1806/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/systemlib/energy/BatteryStat.java
+END
+BatteryStatsReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/bytewalla/!svn/ver/2037/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/systemlib/energy/BatteryStatsReceiver.java
+END

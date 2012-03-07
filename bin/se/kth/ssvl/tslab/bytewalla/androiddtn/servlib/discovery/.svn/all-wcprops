@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery
+END
+IPDiscovery.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/IPDiscovery.class
+END
+Announce.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/Announce.class
+END
+IPDiscovery$cl_type_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/IPDiscovery$cl_type_t.class
+END
+DiscoveryHeader.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/DiscoveryHeader.class
+END
+DiscoveryTable.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/DiscoveryTable.class
+END
+DiscoveryList.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/DiscoveryList.class
+END
+IPAnnounce.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/IPAnnounce.class
+END
+Discovery.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/Discovery.class
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/README
+END
+AnnouncementList.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/discovery/AnnouncementList.class
+END

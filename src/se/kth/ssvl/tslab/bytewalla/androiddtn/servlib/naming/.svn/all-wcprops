@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/bytewalla/!svn/ver/2096/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming
+END
+EndpointIDPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/bytewalla/!svn/ver/2096/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointIDPattern.java
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/bytewalla/!svn/ver/5/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/README.txt
+END
+EndpointID.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/bytewalla/!svn/ver/2073/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointID.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/bytewalla/!svn/ver/1728/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/package.html
+END
+SchemeTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/bytewalla/!svn/ver/1748/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/SchemeTable.java
+END
+NamingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/bytewalla/!svn/ver/1746/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/NamingException.java
+END
+Scheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/bytewalla/!svn/ver/1744/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/Scheme.java
+END
+EndpointIDVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/bytewalla/!svn/ver/1742/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/EndpointIDVector.java
+END
+DTNScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/bytewalla/!svn/ver/2037/AndroidDTN/trunk/src/se/kth/ssvl/tslab/bytewalla/androiddtn/servlib/naming/DTNScheme.java
+END

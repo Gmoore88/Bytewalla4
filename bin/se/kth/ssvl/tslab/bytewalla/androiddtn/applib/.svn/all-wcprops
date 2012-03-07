@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib
+END
+DTNAPIBinder.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPIBinder.class
+END
+DTNAPICode.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode.class
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/package.html
+END
+DTNAPICode$dtn_bundle_priority_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_bundle_priority_t.class
+END
+DTNAPI.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPI.class
+END
+DTNAPICode$dtn_bundle_payload_location_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_bundle_payload_location_t.class
+END
+DTNAPICode$dtn_api_status_report_code.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_api_status_report_code.class
+END
+DTNAPICode$dtn_extension_block_flags_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_extension_block_flags_t.class
+END
+DTNAPICode$dtn_bundle_delivery_opts_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_bundle_delivery_opts_t.class
+END
+DTNAPICode$dtn_status_report_flags_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_status_report_flags_t.class
+END
+DTNAPICode$dtn_status_report_reason_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_status_report_reason_t.class
+END
+DTNAPICode$dtn_reg_flags_t.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/bytewalla/!svn/ver/2128/AndroidDTN/trunk/bin/se/kth/ssvl/tslab/bytewalla/androiddtn/applib/DTNAPICode$dtn_reg_flags_t.class
+END
