@@ -1,5 +1,6 @@
 package se.kth.ssvl.tslab.bytewalla.androiddtn;
 
+import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.prophet.ProphetNeighbor;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -233,12 +234,20 @@ Save.setOnClickListener(new OnClickListener() {
 	public void onClick(View v) {
 		prefsEditor.putInt("Q_Value", Q_seekBar.getProgress());
 		prefsEditor.putInt("P_Encounter", P_encounter_seekbar.getProgress());
-		prefsEditor.putInt("P_Encounter", P_encounter_seekbar.getProgress());
 		prefsEditor.putInt("P_Encounter_First", P_encounter_first_seekbar.getProgress());
 		prefsEditor.putInt("Delta", Delta_seekbar.getProgress());
 		prefsEditor.putInt("Alpha", Alpha_seekbar.getProgress());
 		prefsEditor.putInt("Beta", Beta_seekbar.getProgress());
 		prefsEditor.putInt("K", K_seekbar.getProgress());
+		
+		//Set Prophet values
+		ProphetNeighbor.P_encounter = (float) P_encounter_seekbar.getProgress()/100;
+		ProphetNeighbor.P_encounter_first = (float) P_encounter_first_seekbar.getProgress()/100;
+		ProphetNeighbor.delta = (float) Delta_seekbar.getProgress()/100;
+		ProphetNeighbor.alpha = (float) Alpha_seekbar.getProgress()/100;
+		ProphetNeighbor.beta = (float) Beta_seekbar.getProgress()/100;
+		//ProphetNeighbor.k = (float) in_K/100; 
+		
 		prefsEditor.putString("Queue_Type", Queue_Type_Spinner.getSelectedItem().toString());
 		prefsEditor.putString("Router_Type",spinner.getSelectedItem().toString());
 		prefsEditor.commit();

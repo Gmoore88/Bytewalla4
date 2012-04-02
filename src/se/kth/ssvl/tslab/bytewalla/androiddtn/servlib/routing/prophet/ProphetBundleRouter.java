@@ -163,7 +163,7 @@ public class ProphetBundleRouter extends TableBasedRouter {
 			array[i] = buf.array()[i];
 		return array;
 	}
-
+	
 	private IByteBuffer createProphetBundle(ProphetNeighbor pn) {
 		IByteBuffer prophetBuffer = new SerializableByteBuffer(1000);
 		prophetBuffer.rewind();
@@ -211,7 +211,6 @@ public class ProphetBundleRouter extends TableBasedRouter {
 
 		// Log.d(TAG, toString(buf.array()));
 		Log.d(TAG, "Bundle with length " + bundle.payload().length());
-
 		ProphetBundle hdr = parseProphetBundle(buf);
 		ProphetNeighbor pn;
 

@@ -70,13 +70,14 @@ public class ProphetNeighbor {
 			return caption;
 		}
 	}
-
+	
+	
 	public static final short P_SHORT = 1000;
 	// private static final float P_first_threshold = 0.1f;
-	// private static final float alpha = 0.5f;
-	private static final float beta = 0.9f;
-	private static final float delta = 0.01f;
-	private static final float gamma = 0.999f;
+	public static float alpha = 0.5f;
+	public static float beta = 0.9f;
+	public static float delta = 0.01f;
+	public static final float gamma = 0.999f;
 	private static final float K_unit = 24 * 60 * 60 * 1000;
 	/*
 	 * +========================================+ | Parameter | Recommended
@@ -89,9 +90,9 @@ public class ProphetNeighbor {
 	 * +----------------------------------------+ | delta | 0.01 |
 	 * +========================================+
 	 */
-	private static final float P_encounter = 0.5f;
+	public static float P_encounter = 0.5f;
 
-	private static final float P_encounter_first = 0.25f;
+	public static float P_encounter_first = 0.25f;
 
 	private static int staticStringID = 1;
 

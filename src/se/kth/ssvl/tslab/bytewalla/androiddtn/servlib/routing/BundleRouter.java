@@ -51,7 +51,6 @@ import android.util.Log;
  * @author Rerngvit Yanggratoke (rerngvit@kth.se)
  */
 public abstract class BundleRouter extends BundleEventHandler {
-
 	/**
 	 * The String TAG to support Android Logging mechanism
 	 */
