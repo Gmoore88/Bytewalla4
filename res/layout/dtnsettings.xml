@@ -26,26 +26,23 @@
             android:layout_weight="1" />
 
     </LinearLayout>
-
-
-
-
+
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:fillViewport="true"
-        android:scrollbars="none" >
-
-
-
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="none|vertical" >
+
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="vertical"
-            android:layout_weight="1" >
+            android:scrollbarAlwaysDrawVerticalTrack="true" >
 
             <TextView
                 android:id="@+id/Title_Q_Value"
@@ -282,16 +279,15 @@
 		        android:id="@+id/spinner_Queue_Type"
 		        android:layout_width="fill_parent"
 		        android:layout_height="wrap_content" />
+
         </LinearLayout>
 
     </ScrollView>
-
 
     <Button
         android:id="@+id/DTNSETTINGS_SAVE"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
         android:layout_weight="0"
         android:text="Save" />
 

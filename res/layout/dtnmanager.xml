@@ -3,11 +3,13 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="fill_parent">
-
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-		android:orientation="vertical" android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:paddingLeft="5dip">
-
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingLeft="5dip" >
 
 		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 			android:orientation="horizontal" android:layout_width="wrap_content"
@@ -30,33 +32,49 @@
 				android:singleLine="true" android:id="@+id/DTNManager_DTNServiceTextView"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
 				android:layout_marginTop="10dip" android:layout_marginBottom="5dip"></TextView>
-		
-		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-			android:layout_width="wrap_content" android:layout_height="wrap_content"
-			android:layout_marginBottom="10dip" android:layout_marginRight="5dip"
-			android:orientation="horizontal">
+		
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dip"
+		    android:layout_marginRight="5dip"
+		    android:orientation="horizontal" >
 
 			<Button android:text="Start" android:id="@+id/DTNManager_StartStopButton"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
 			<Button android:text="Restart" android:id="@+id/DTNManager_RestartButton"  android:enabled="false"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-
-		    <Button android:text="Config" android:id="@+id/DTNManager_EditConfigButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
 			
 			<Button android:text="Apps" android:id="@+id/DTNManager_AppsButton" android:enabled="false"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-			<Button android:text="Quit" android:id="@+id/DTNManager_QuitButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-				
+
+			<Button
+			    android:id="@+id/DTNManager_QuitButton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Quit" />
 			
 		</LinearLayout>
 
-		<Button
-		    android:id="@+id/DTNManager_Config"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="Router Config" />
+		<LinearLayout
+		    android:id="@+id/linearLayout1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+			<Button
+			    android:id="@+id/DTNManager_Config"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Router Config" />
+
+			<Button
+			    android:id="@+id/DTNManager_EditConfigButton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Config" />
+
+		</LinearLayout>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
