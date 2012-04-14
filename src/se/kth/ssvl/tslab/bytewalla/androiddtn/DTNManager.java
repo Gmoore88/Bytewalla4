@@ -51,6 +51,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources.NotFoundException;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -317,6 +318,7 @@ public class DTNManager extends Activity  {
 	 * Initialize function for DTNMnager. This will call other sub initailization functions for each component.
 	 */
 	private void init() {
+		WifiManager wifiManager = (WifiManager) this.getSystemService(Context.WIFI_SERVICE);
 		self_ = this;
 		
 		if (getResources().getString(
@@ -336,6 +338,10 @@ public class DTNManager extends Activity  {
 		{
 			start_DTN_service_UI_update();
 			set_running_user_interface(dtn_config_);
+		}
+		if(!wifiManager.isWifiEnabled())
+		{
+			wifiManager.setWifiEnabled(true);
 		}
 		
 	}
