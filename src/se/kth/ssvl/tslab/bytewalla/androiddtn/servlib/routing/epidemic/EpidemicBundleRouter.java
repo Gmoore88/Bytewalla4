@@ -164,30 +164,30 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 		return array;
 	}
 
-	private IByteBuffer createProphetBundle(EpidemicNeighbor pn) {
-		IByteBuffer prophetBuffer = new SerializableByteBuffer(1000);
-		prophetBuffer.rewind();
+	private IByteBuffer createEpidemicBundle(EpidemicNeighbor pn) {
+		IByteBuffer epidemicBuffer = new SerializableByteBuffer(1000);
+		epidemicBuffer.rewind();
 		// Protocol
-		prophetBuffer.put((byte) 140);
+		epidemicBuffer.put((byte) 140);
 		// Version | Flags
-		prophetBuffer.put((byte) (0x01 << 4));
+		epidemicBuffer.put((byte) (0x01 << 4));
 		// result
-		prophetBuffer.put(epidemic_header_result.AckAll.getCode());
+		epidemicBuffer.put(epidemic_header_result.AckAll.getCode());
 		// code
-		prophetBuffer.put((byte) 0);
+		epidemicBuffer.put((byte) 0);
 
 		// Receiver Instance
-		prophetBuffer.putShort(pn.remote_instance_);
+		epidemicBuffer.putShort(pn.remote_instance_);
 		// Sender Instance
-		prophetBuffer.putShort(pn.local_instance_);
+		epidemicBuffer.putShort(pn.local_instance_);
 		// Transaction Identifier
-		prophetBuffer.putInt(pn.sendTransactionId);
+		epidemicBuffer.putInt(pn.sendTransactionId);
 		// submessage number
-		prophetBuffer.putShort((short) 0);
+		epidemicBuffer.putShort((short) 0);
 
 		// length
-		prophetBuffer.putShort((short) 0);
-		return prophetBuffer;
+		epidemicBuffer.putShort((short) 0);
+		return epidemicBuffer;
 	}
 
 	/**
@@ -203,9 +203,9 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 	public void deliver_bundle(Bundle bundle) {
 		IByteBuffer buf = new SerializableByteBuffer(1000);
 
-		// Prophet Control bundle
+		// Epidemic Control bundle
 		if (!bundle.payload().read_data(0, bundle.payload().length(), buf)) {
-			Log.e(TAG, "Erruor reading prophet bundle");
+			Log.e(TAG, "Erruor reading epidemic bundle");
 			return;
 		}
 
@@ -215,7 +215,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 		EpidemicBundle hdr = parseEpidemicBundle(buf);
 		EpidemicNeighbor pn;
 
-		String remote_eid = bundle.source().str().split("/prophet")[0];
+		String remote_eid = bundle.source().str().split("/epidemic")[0];
 		if (remote_eid == null) {
 			Log.e("TAG", "Bundle recv : remote_eid == null");
 			return;
@@ -256,7 +256,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 			handleBundleResponse(buf, pn, hdr);
 			break;
 		default:
-			Log.e(TAG, String.format("Unknown Prophet control(%x) from %s",
+			Log.e(TAG, String.format("Unknown Epidemic control(%x) from %s",
 					hdr.type, pn.remote_eid()));
 		}
 
@@ -374,7 +374,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 	}
 
 	private void sendBundleOffer(EpidemicNeighbor pn) {
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 		createBundleOfferTLV(buf, pn);
 		sendMsg(adjustLenAndReturnArray(buf), pn);
 		Log.d(TAG, String.format("send Bundle offer %s", pn.remote_eid()));
@@ -397,7 +397,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 		if (pn.bundleOffer == null)
 			return;
 
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 
 		BundleResponseTLV.createTLV(buf, pn.bundleOffer.entries);
 
@@ -560,7 +560,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 	/* send the error */
 	@SuppressWarnings("unused")
 	private void sendError(EpidemicNeighbor pn) {
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 		ErrorTLV.createTLV(buf, new byte[2]);
 		sendMsg(adjustLenAndReturnArray(buf), pn);
 		Log.d(TAG, "send Error " + pn.remote_eid());
@@ -568,7 +568,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 
 	/* send the hello */
 	private void sendHello(EpidemicNeighbor pn, HelloFunctionType helloFun) {
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 		HelloTLV.createTLV(buf, helloFun);
 
 		sendMsg(adjustLenAndReturnArray(buf), pn);
@@ -580,15 +580,15 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 
 	private void sendMsg(final byte[] payload, EpidemicNeighbor pn) {
 		Bundle bundle = new Bundle(location_t.MEMORY);
-		bundle.set_dest(new EndpointID(pn.remote_eid() + "/prophet"));
+		bundle.set_dest(new EndpointID(pn.remote_eid() + "/epidemic"));
 		bundle.set_source(new EndpointID(BundleDaemon.getInstance().local_eid()
 				.str()
-				+ "/prophet"));
+				+ "/epidemic"));
 		bundle.set_prevhop(BundleDaemon.getInstance().local_eid());
 		bundle.set_custodian(EndpointID.NULL_EID());
 		bundle.set_replyto(new EndpointID(BundleDaemon.getInstance()
 				.local_eid().str()
-				+ "/prophet"));
+				+ "/epidemic"));
 		bundle.set_singleton_dest(true);
 		bundle.set_expiration(10000);
 		bundle.set_priority(priority_values_t.COS_EXPEDITED);
@@ -635,7 +635,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 	}
 
 	private void sendRIBDictionary(EpidemicNeighbor pn) {
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 		RIBDictionaryTLV.createTLV(buf, neighbors);
 		sendMsg(adjustLenAndReturnArray(buf), pn);
 		Log.d(TAG, "Send RIBDictionary " + pn.remote_eid());
@@ -644,7 +644,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 
 	private void sendRIBInformation(EpidemicNeighbor pn) {
 		RIBInformationBaseTLV ribInfo = new RIBInformationBaseTLV();
-		IByteBuffer buf = createProphetBundle(pn);
+		IByteBuffer buf = createEpidemicBundle(pn);
 		ribInfo.createTLV(buf, neighbors);
 		sendMsg(adjustLenAndReturnArray(buf), pn);
 		Log.d(TAG, "send RIBInformation " + pn.remote_eid());
@@ -664,9 +664,9 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 	// String eid = event.bundle().dest().str();
 	// super.handle_bundle_transmitted(event);
 	//
-	// if (eid.endsWith("/prophet")) {
-	// Log.i(TAG, "########Prophet Bundle Transmitted");
-	// ProphetNeighbor pn = neighbors.get(eid.split("/prophet")[0]);
+	// if (eid.endsWith("/epidemic")) {
+	// Log.i(TAG, "########Epidemic Bundle Transmitted");
+	// EpidemicNeighbor pn = neighbors.get(eid.split("/epidemic")[0]);
 	// sendNext(pn);
 	// }
 	// }
@@ -740,7 +740,7 @@ public class EpidemicBundleRouter extends TableBasedRouter {
 			while (bundles.hasNext()) {
 				Bundle b = bundles.next();
 
-				if (b.dest().str().endsWith("/prophet")) {
+				if (b.dest().str().endsWith("/epidemic")) {
 					continue;
 				}
 

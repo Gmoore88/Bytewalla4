@@ -3,7 +3,7 @@ package se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic.BaseTLV.TLVType;
 
 public class EpidemicBundle {
-	// private static final String TAG = "ProphetBundle";
+	// private static final String TAG = "EpidemicBundle";
 
 	byte code;
 	Hello hello = new Hello();

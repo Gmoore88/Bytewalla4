@@ -15,7 +15,7 @@ public class EpidemicRegistration extends Registration {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static final String TAG = "ProphetRegistration";
+	private static final String TAG = "EpidemicRegistration";
 	private EpidemicBundleRouter router_;
 
 	public EpidemicRegistration(EpidemicBundleRouter router_) {
@@ -27,7 +27,7 @@ public class EpidemicRegistration extends Registration {
 
 	@Override
 	public void deliver_bundle(Bundle bundle) {
-		Log.d(TAG, "Prophet bundle from " + bundle.source());
+		Log.d(TAG, "Epidemic bundle from " + bundle.source());
 		router_.deliver_bundle(bundle);
 		BundleDaemon.getInstance().post_at_head(new BundleDeliveredEvent(bundle, this));
 		BundleDaemon.getInstance().post_at_head(new BundleDeleteRequest(bundle, status_report_reason_t.REASON_NO_ADDTL_INFO));
