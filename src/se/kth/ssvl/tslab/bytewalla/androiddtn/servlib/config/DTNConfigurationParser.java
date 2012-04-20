@@ -345,7 +345,7 @@ public class DTNConfigurationParser {
 		{
 			throw new InvalidDTNConfigurationException(String.format("Invalid DTN Config Exception: Router Type, %s is invalid",router_type.getValue()));
 		}*/
-		String router_type =myPrefs.getString("Router_Type", null);
+		String router_type=myPrefs.getString("Router_Type", null);
 		if (router_type.equals("static"))
 		{
 			Log.i("Bytewalla4", String.format("Router Type: %s",router_type));
@@ -366,7 +366,9 @@ public class DTNConfigurationParser {
 			throw new InvalidDTNConfigurationException(String.format("Invalid DTN Config Exception: Router Type, %s is invalid",router_type));
 		}
 	
-		config.routes_setting().setQueuing_policy(config_element.getAttributeNode("queuing").getValue());
+		String Queue_type=myPrefs.getString("Queue_Type", null);
+		config.routes_setting().setQueuing_policy(Queue_type);
+		//config.routes_setting().setQueuing_policy(config_element.getAttributeNode("queuing").getValue());
 		
 		
 //		Attr local_eid = config_element.getAttributeNode("local_eid");
