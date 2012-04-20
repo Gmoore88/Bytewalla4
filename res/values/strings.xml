@@ -37,7 +37,8 @@
    </string-array>
    <string name="Title_Queue_Type">Queue Type</string>
    <string-array name="Queue_Types">
-       <item >Fifo</item>
+       <item >FIFO</item>
+       <item >MOFO</item>
    </string-array>
 
 </resources>

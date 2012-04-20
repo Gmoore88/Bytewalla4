@@ -37,7 +37,6 @@ import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.naming.EndpointID;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.prophet.ProphetBundleRouter;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.prophet.ProphetRegistration;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.prophet.queuing.ProphetQueuing;
-import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic.EpidemicBundle;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic.EpidemicBundleRouter;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic.EpidemicRegistration;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.epidemic.queuing.EpidemicQueuing;
