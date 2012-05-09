@@ -91,9 +91,17 @@ public abstract class BundleRouter extends BundleEventHandler {
 		public String getCaption() {
 			return caption_;
 		}
-
+		
+		public static String getRouterType()
+		{
+			
+			return "";
+		}
+		
 		public static router_type_t get(byte code) {
 			return lookup.get(code);
+			
+			
 		}
 
 	}
@@ -121,15 +129,15 @@ public abstract class BundleRouter extends BundleEventHandler {
 		BundleRouter router;
 		if (type == router_type_t.STATIC_BUNDLE_ROUTER) {
 			router = new StaticBundleRouter();
-			router.name_ = "static bundle router";
+			BundleRouter.name_ = "static bundle router";
 		}
 		else if (type == router_type_t.PROPHET_BUNDLE_ROUTER) {
 			router = new ProphetBundleRouter();
-			router.name_ = "prophet bundle router";
+			BundleRouter.name_ = "prophet bundle router";
 		}
 		else if (type == router_type_t.EPIDEMIC_BUNDLE_ROUTER) {
 			router = new EpidemicBundleRouter();
-			router.name_ = "epidemic bundle router";
+			BundleRouter.name_ = "epidemic bundle router";
 		}
 		else {
 			Log.e(TAG, String.format("Unknow router Type %s with code %d", type
@@ -532,7 +540,7 @@ public abstract class BundleRouter extends BundleEventHandler {
 	/**
 	 *  "Name of this particular router" [DTN2]
 	 */
-	protected String name_;
+	protected static String name_;
 
 	/**
 	 *  "The list of all bundles still pending delivery" [DTN2]

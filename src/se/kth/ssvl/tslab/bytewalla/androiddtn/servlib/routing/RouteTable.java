@@ -26,6 +26,7 @@ import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.naming.EndpointIDPattern;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.systemlib.thread.Lock;
 import se.kth.ssvl.tslab.bytewalla.androiddtn.systemlib.util.StringVector;
 import android.util.Log;
+import se.kth.ssvl.tslab.bytewalla.androiddtn.servlib.routing.BundleRouter;
   
 /**
  * Class to represent routing table in the router. It hold route entries and can check what route entries should be used for particular
@@ -362,15 +363,24 @@ public class RouteTable{
 	    		int count = 0;
 	    		
 	    		Iterator<RouteEntry> iter = route_table_.iterator();
-	    		
 	    		while (iter.hasNext())
 	    		{
 	    			RouteEntry entry = iter.next();
 	    			
 	    			Log.d(TAG, String.format("check entry %s", entry.toString()));
 	    			
-	    			if (!entry.dest_pattern().match(eid))
+	    			
+	    			if(BundleRouter.name_ == "epidemic bundle router")
+	    			{
+	    				//Need to get whole routing table to emulate epidemic due to table based router.
+	    				Log.i("Bytewalla4", "Router type epidemic, pass whole table!");
+	    			}
+	    			else
+	    			{
+	    				if (!entry.dest_pattern().match(eid))
 	    				continue;
+	    			}
+	    			
 	    			
 	    			if (entry.link() == null)
 	    			{
